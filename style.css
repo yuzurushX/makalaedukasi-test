@@ -224,10 +224,10 @@ header {
   width: 280px;
   height: 280px;
   border-radius: 16px;
-  object-fit: cover;
+  object-fit: contain;
   box-shadow: 0 2px 16px rgba(30,64,175,0.10);
   background: #fff;
-  padding: 0.5rem;
+  padding: 0.1rem;
 }
 
 /* Programs Section */
@@ -326,6 +326,7 @@ header {
 .advantages {
   background: url('images/BG-White.webp') center/cover no-repeat;
   padding: 2rem 1rem;
+  contain: fit;
 }
 
 .advantages h2 {
